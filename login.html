@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+  <h1>Login Form</h1>
+  <div class="container">
+    <form id="loginForm" onsubmit="validateForm(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+    
+        <input type="submit" value="Login">
+        <p>Don't have an acoount <a href="registration.html" style="text-decoration: none; color: blue;">Click here</a></p>
+      </form>
+  </div>
+  <script src="JS/login.js"></script>
+</body>
+</html>
